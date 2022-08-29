@@ -71,4 +71,14 @@ INTERFACESv4="eth0"
 systemctl restart isc-dhcp-server.service
 ```
 
-Done!
+Done!</br>
+</br>
+</br>
+OPTIONAL</br>
+Share internet connection over the interface.</br>
+</br>
+Just edit the iptables.sh script, where ens4 is the source for internet connection, and eno1 is the destination for internet connection.</br>
+Replace ens4 and eno1 respectively and run the script.</br>
+</br>
+Also read sysctl file, and make edits accordingly.</br>
+</br>
