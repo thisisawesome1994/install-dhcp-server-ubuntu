@@ -1,0 +1,4 @@
+To make it auto-set this value on boot uncomment this line in/etc/sysctl.conf
+
+#net.ipv4.ip_forward=1
+#net.ipv6.conf.all.forwarding=1
